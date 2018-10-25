@@ -1,0 +1,42 @@
+* {
+	color:darkgreen;
+	background-color: azure;
+	padding: 10px;
+	margin: 10px;
+
+}
+input{
+	border: 1px solid lightgreen;
+	border-radius: 6px;
+}
+hr{
+	height: 2px;
+	color: darkgreen;
+	background-color: darkgreen;
+	padding: 0;
+}
+table{
+	border:2px;
+}
+.login{
+	text-align: center;
+	border: 100px;
+	border-style: solid;
+}
+
+form label{
+	font-weight: bold !important;
+	/*font-size: 2in;*/
+
+}
+input[type="submit"]:hover,input[type="button"]:hover,input[type="reset"]:hover,button:hover{
+	background-color: darkgreen;
+	color: azure;
+	cursor: pointer;
+}
+input:disabled{
+	background-color: #ded;
+}
+a{
+	text-decoration: none; 
+}
